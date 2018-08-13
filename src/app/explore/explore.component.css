@@ -1,0 +1,18 @@
+.mainDiv {
+    text-align: center;
+}
+
+.mainForm {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.radioClass {
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}

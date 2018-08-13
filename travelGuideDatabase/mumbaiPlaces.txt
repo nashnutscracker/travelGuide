@@ -1,0 +1,45 @@
+db.mumbaiPlaces.insertMany([
+{
+   sr: '1',
+   name: 'Gateway of India',
+   description: 'The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.',
+   address: 'Apollo Bandar, Colaba, Mumbai, Maharashtra 400001'
+},
+{
+   sr: '2',
+   name: 'Elephanta Caves',
+   description: 'Elephanta Caves are a UNESCO World Heritage Site and a collection of cave temples predominantly dedicated to the Hindu god Shiva.',
+   address: 'Gharapuri, Maharashtra 400094'
+},
+{
+   sr: '3',
+   name: 'Marine Drive',
+   description: 'Marine Drive is a 3.6-kilometre-long Boulevard in South Mumbai in the city of Mumbai. The road was constructed by late philanthropist Bhagojisheth Keer & Pallonji Mistry.',
+   address: 'South Mumbai'
+},
+{
+   sr: '4',
+   name: 'Chhatrapati Shivaji Maharaj Vastu Sangrahalaya',
+   description: 'The Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, abbreviated CSMVS and formerly named the Prince of Wales Museum of Western India, is the main museum in Mumbai, Maharashtra.',
+   address: '159-161, Mahatma Gandhi Road, Kala Ghoda, Fort, Mumbai, Maharashtra 400023'
+},
+{
+   sr: '5',
+   name: 'Sanjay Gandhi National Park',
+   description: 'Sanjay Gandhi National Park is a 87 km² protected area near Mumbai in Maharashtra State in India. It was formerly known as Borivali National Park.',
+   address: 'Mumbai-Gujarat Road, Borivali East, Mumbai, Maharashtra 400066'
+},
+{
+   sr: '6',
+   name: 'Haji Ali Dargah',
+   description: 'The Haji Ali Dargah is a mosque and dargah located on an islet off the coast of Worli in the southern part of Mumbai. Near the heart of the city proper, the dargah is one of the most recognisable landmarks of Mumbai.',
+   address: 'Dargah Rd, Haji Ali, Mumbai, Maharashtra'
+},
+{
+   sr: '7',
+   name: 'Kanheri Caves',
+   description: 'The Kanheri Caves are a group of caves and rock-cut monuments cut into a massive basalt outcrop in the forests of the Sanjay Gandhi National Park, on the island of Salsette in the western outskirts of Mumbai, India.',
+   address: 'Mumbai, Maharashtra 400101'
+}
+]
+);

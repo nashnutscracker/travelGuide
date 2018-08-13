@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <div class="account-wall">
+        <h2>Sign Up</h2>
+        <form class="form-signin" [formGroup]="form">
+          <input type="text" class="form-control" placeholder="Name" autocomplete="off" formControlName="name" #name required autofocus>
+          <br>
+          <input type="email" class="form-control" placeholder="Email" autocomplete="off" formControlName="email" #email required autofocus>
+          <br>
+          <input type="password" class="form-control" placeholder="Password" autocomplete="off" formControlName="password" #password
+            required>
+          <br>
+          <button class="btn btn-lg btn-primary btn-block" type="submit" [disabled]="!form.valid" (click)="enter1(name.value, email.value, password.value)">
+            Sign Up</button>
+          <span class="clearfix"></span>
+        </form>
+      </div>
+      <a [routerLink]="['/login']" class="text-center new-account">Already have an account? </a>
+      <a [routerLink]="['/update']" class="text-center new-account">Change password </a>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <router-outlet></router-outlet>
+</div>

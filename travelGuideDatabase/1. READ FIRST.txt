@@ -1,0 +1,8 @@
+1. Install mongoDB.
+2. Create database 'travelguide'. --> use travelguide;
+3. Create collection 'users'. --> db.createCollection("users");
+   ***This will be an empty collection at first. Add data to it by front-end using 'Sign Up' page.
+4. Create collection 'punePlaces'. --> db.createCollection("punePlaces");
+5. Create collection 'mumbaiPlaces'. --> db.createCollection("mumbaiPlaces");
+6. Insert data into the 'punePlaces' collection. --> copy and paste all the data from 'punePlaces.txt' to the mongoDB shell.
+7. Insert data into the 'mumbaiPlaces' collection. --> copy and paste all the data from 'mumbaiPlaces.txt' to the mongoDB shell.

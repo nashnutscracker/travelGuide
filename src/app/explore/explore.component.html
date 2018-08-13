@@ -1,0 +1,62 @@
+<div class="mainDiv">
+  <h2>Please Select Any City To Explore!</h2>
+  <br>
+  <button (click)="show=!show" class="btn btn-primary">{{show ? 'Hide Cities' : 'Display Cities'}}</button>
+
+  <div *ngIf="show">
+    <h3>
+      <label style="margin-right: 5px; cursor: pointer;">
+        <input #Pune type="radio" name="size" (change)="0" class="radioClass">Pune</label>
+      <label style="margin-left: 5px; cursor: pointer;">
+        <input #Mumbai type="radio" name="size" (change)="0" class="radioClass">Mumbai</label>
+    </h3>
+
+    <div *ngIf="Pune.checked">
+      <div align="center" class="table-responsive">
+        <br>
+        <br>
+        <table class="table table-bordered" style="width: 1000px;">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item123 of puneData; let i = index">
+              <td>{{item123.name | titlecase}}</td>
+              <td>{{item123.description | titlecase}}</td>
+              <td>{{item123.address | titlecase}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <div *ngIf="Mumbai.checked">
+      <div align="center" class="table-responsive">
+        <br>
+        <br>
+        <table class="table table-bordered" style="width: 1000px;">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item123 of mumbaiData; let i = index">
+              <td>{{item123.name | titlecase}}</td>
+              <td>{{item123.description | titlecase}}</td>
+              <td>{{item123.address | titlecase}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>

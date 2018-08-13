@@ -1,0 +1,45 @@
+db.punePlaces.insertMany([
+{
+   sr: '1',
+   name: 'Shaniwar Wada',
+   description: 'Shaniwarwada is a historical fortification in the city of Pune in Maharashtra, India. Built in 1732, it was the seat of the Peshwas of the Maratha Empire until 1818, when the Peshwas lost control.',
+   address: 'Shaniwar Peth, Pune, Maharashtra 411030'
+},
+{
+   sr: '2',
+   name: 'Sinhagad',
+   description: 'Sinhagad is a hill fortress located at around 25 km southwest of the city of Pune, India. Some of the information available at this fort suggests that the fort could have been built 2000 years ago.',
+   address: 'Sinhagad Ghat Road, Dist Pune, Thoptewadi, Maharashtra 411025'
+},
+{
+   sr: '3',
+   name: 'Aga Khan Palace',
+   description: 'The Aga Khan Palace was built by Sultan Muhammed Shah Aga Khan III in Pune, India. Built in 1892, it is one of important landmarks in Indian history.',
+   address: ' Gandhi National Memorial Society, Aga Khan Palace Road, Pune, Maharashtra 411006'
+},
+{
+   sr: '4',
+   name: 'Dagadusheth Halwai Ganapati Temple',
+   description: 'Shreemant Dagdusheth Halwai Ganapati Temple in Pune is dedicated to the Hindu God Ganesh. The temple is popular in Maharashtra and is visited by thousands of pilgrims every year.',
+   address: 'Ganpati Bhavan, 250, Budhvar Peth, Pune, Maharashtra 411002'
+},
+{
+   sr: '5',
+   name: 'Raja Dinkar Kelkar Museum',
+   description: 'The Raja Dinkar Kelkar Museum is in Pune, Maharashtra, India. It contains the collection of Dr. Dinkar G. Kelkar, dedicated to the memory of his only son, Raja. The three-storey building houses various sculptures dating back to the 14th century.',
+   address: 'No. 1377/78, Bajirao Road, Natu Baag, Kamal Kunj, Shukrawar Peth, Pune, Maharashtra 411002'
+},
+{
+   sr: '6',
+   name: 'Rajiv Gandhi Zoological Park',
+   description: 'The Rajiv Gandhi Zoological Park, commonly known as the Rajiv Gandhi Zoo or Katraj Zoo, is located in Katraj, Pune district, Maharashtra State, India. It is managed by the Pune Municipal Corporation.',
+   address: 'Pune-Satara Road, Opp. Katraj Dairy, Katraj, Pune, Maharashtra 411046'
+},
+{
+   sr: '7',
+   name: 'Khadakwasla Dam',
+   description: 'Khadakwasla Dam is a dam on the Mutha River 21 km from the centre of the city of Pune in Maharashtra, India. The dam created a reservoir known as Khadakwasla Lake which is the main source of water for Pune and its suburbs.',
+   address: 'Khadakwasla Village, Pune, Maharashtra; India'
+}
+]
+);
